@@ -30,7 +30,7 @@ After that you could get the value for bootstrap server for your consumers and p
 echo $(docker exec kafka hostname -i)
 ```
 And there you go that's how you go about it, simply run 
-`sbt assembly` to get the JAR at your disposal and try to test it against your consumers
+`sbt assembly` to get the JAR at your disposal and try to test it against your consumers or you can directly download the JAR from [here](https://github.com/knoldus/bulk-kafka-publisher/releases/download/0.1/kafka-bulk-producer-assembly-0.1.jar)
 
 Feels free to create any issues/suggestions/feature request
  
